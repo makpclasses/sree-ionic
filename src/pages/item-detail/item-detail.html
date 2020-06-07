@@ -1,0 +1,20 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ item.firstName }} {{ item.lastName }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
+  </div>
+
+  <div class="item-detail" padding>
+    <h2>{{item.firstName}} {{item.lastName}}</h2>
+    <p> address: {{item.address}} </p>
+    <p> city: {{item.city}} </p>
+    <p> zip: {{item.zip}} </p>
+  </div>
+</ion-content>
