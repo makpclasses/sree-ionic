@@ -100,3 +100,4 @@ To change the language of the app, edit `src/app/app.component.ts` and modify
 "#sri-ionic" 
 "#sree-java" 
 "#sree-java" 
+"#sri-ionic" 
